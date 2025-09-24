@@ -7,7 +7,7 @@ package com.bobocode.basics;
  * <p>
  * todo: refactor this class so it uses generic type "T" and run {@link com.bobocode.basics.BoxTest} to verify it
  */
-public class Box<T> {
+public class Box<T extends Number> {
     private T value;
 
     public Box(T value) {
